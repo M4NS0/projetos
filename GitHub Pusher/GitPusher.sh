@@ -1,6 +1,6 @@
 #!/bin/sh
 
-repName=$(echo "Workspaces,Matriz.Curricular,Projetos,M4ns0.github.io")
+repName=$(echo "Workspaces,Matriz.Curricular,Projetos,M4NS0.github.io")
 crud=$(echo "Create,Remove,Update,Delete")
 yad --width 500 --height 200 --title="GitAutoPusher" \
 --image marca.png \
@@ -19,7 +19,8 @@ git add .
 git commit -m "$CRUD  $COMMENT"
 git status
 git push
+exit
 
 yad --form --title "GitAutoPusher" --text="\n\n  Foi feito um $CRUD no Repositório $NAME  \n\n"  
-cd ~/$USR/Workspaces/Shell/GitHub
+cd ~/$USR/Workspaces/Shell/GitHubPusher
 ./GitPusher.sh
