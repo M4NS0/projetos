@@ -1,5 +1,5 @@
 ### URL Shortner
-<img src="icon.png" width="100%" height="auto" />
+<img src="icon.png" width="20%" height="auto" />
 <br>
 <br>
 Language: Python 3.8
