@@ -77,7 +77,7 @@ window=Tk()
 
 mywin=MyWindow(window)
 window.title('Encurtador de URL')
-window.geometry("600x450+300+300")
+window.geometry("600x200+300+300")
 window.mainloop()
 
 
