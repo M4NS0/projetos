@@ -25,3 +25,5 @@ Original: https://github.com/M4NS0/Projetos/tree/master/URLShortner - Encurtada:
 Original: https://github.com/M4NS0/Workspaces/tree/master/Web/Johns%20Hopkins%20University/David%20Chu's%20China%20Bistro%20Web%20Site - Encurtada: http://tinyurl.com/y6sps799
 Original: https://github.com/M4NS0/Matriz.Curricular/tree/master/PUC%20-%20An%C3%A1lise%20de%20Sistemas%20M%C3%B3dulo%20III - Encurtada: http://tinyurl.com/y42eswhf
 Original: https://www.digitalocean.com/community/tutorials/install-tomcat-9-ubuntu-1804-pt - Encurtada: http://tinyurl.com/yykvlpnn
+Original: https://www.cos.ufrj.br/uploadfile/1303916283.pdf - Encurtada: http://tinyurl.com/yynvdjyo
+Original: http://www.softex.br/wp-content/uploads/2016/04/MPS.BR_Guia_Geral_Software_2016-com-ISBN.pdf - Encurtada: http://tinyurl.com/y6hkznm6
