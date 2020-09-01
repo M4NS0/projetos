@@ -27,3 +27,14 @@ Original: https://github.com/M4NS0/Matriz.Curricular/tree/master/PUC%20-%20An%C3
 Original: https://www.digitalocean.com/community/tutorials/install-tomcat-9-ubuntu-1804-pt - Encurtada: http://tinyurl.com/yykvlpnn
 Original: https://www.cos.ufrj.br/uploadfile/1303916283.pdf - Encurtada: http://tinyurl.com/yynvdjyo
 Original: http://www.softex.br/wp-content/uploads/2016/04/MPS.BR_Guia_Geral_Software_2016-com-ISBN.pdf - Encurtada: http://tinyurl.com/y6hkznm6
+Original: https://github.com/M4NS0/Linux#development-enviroment-setup---installations-and-procedures - Encurtada: http://tinyurl.com/yygygncb
+Original: https://github.com/M4NS0/Workspaces/tree/master/Web/WebServer/ProjetoWeb - Encurtada: http://tinyurl.com/y2xzzmtn
+Original: https://github.com/M4NS0/Linux#nodejs-e-yarn - Encurtada: http://tinyurl.com/yyrqlpqz
+Original: https://github.com/M4NS0/Linux#restspread - Encurtada: http://tinyurl.com/y5b7obj3
+Original: https://github.com/M4NS0/Linux#configurando-web-pack - Encurtada: http://tinyurl.com/y5oych2j
+Original: https://github.com/M4NS0/Linux#configurando-web-pack-dev-server - Encurtada: http://tinyurl.com/y233pxgv
+Original: https://github.com/M4NS0/Linux#para-usar-o-projeto-online - Encurtada: http://tinyurl.com/yymrshb6
+Original: https://github.com/M4NS0/Linux#instalando-async-await - Encurtada: http://tinyurl.com/y3oks9ws
+Original: https://github.com/M4NS0/Linux#instalando-o-axios - Encurtada: http://tinyurl.com/y3oodxgw
+Original: https://github.com/M4NS0/Linux#postgres-installation - Encurtada: http://tinyurl.com/y3whmsgq
+Original: https://github.com/M4NS0/Linux#pdadmin-installation - Encurtada: http://tinyurl.com/yxejloyy
