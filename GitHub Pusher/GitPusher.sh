@@ -1,6 +1,6 @@
 #!/bin/sh
 
-repName=$(echo "Workspaces,Matriz.Curricular,Projetos,M4NS0.github.io,Linux")
+repName=$(echo "Workspaces,Matriz.Curricular,Projetos,M4NS0.github.io,Crudelis.academico")
 crud=$(echo "Create,Update,Delete")
 yad --width 500 --height 200 --title="GitAutoPusher" \
 --image marca.png \
