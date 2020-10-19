@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Profissões</title>
+	<!-- Bootstrap Link  -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!-- Style Link  -->
+	<link href="/assets/css/menu.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<br>
+	<h5> Profissional, por favor preencha os campos a seguir: </h5>
+	<div>
+		<form method="post" action="">
+			<label for="matricula"> Matrícula </label> <br>
+			<input type="text" id="matricula" name="matricula" placeholder="não criado" disabled><br>
+
+			<label for="nome">Nome:</label><br>
+			<input type="text" id="nome" name="nome" placeholder="seu nome.." required><br>
+
+			<label for="nasc">Data de Nascimento:</label><br>
+			<input type="text" id="nasc" name="nasc" placeholder="seu nascimento.." autocomplete="on" required><br>
+
+			<label for="email">Email:</label><br>
+			<input type="text" id="email" name="email" placeholder="seu email..."><br>
+
+			<div>
+				<button type="submit" value="salvar" name="Salvar" class="btn btn-dark btn-lg">Salvar</button>
+				<button type="reset" value="reset" name="Limpar" class="btn btn-secondary btn-lg">Limpar</button>
+			</div>
+		</form>
+	</div>
+</body>
+
+</html>
