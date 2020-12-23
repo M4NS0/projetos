@@ -1,0 +1,120 @@
+$grid-width: 100%;
+$grid-gutter-vertical: -2rem;
+$text-shadow-3d: 1px 1px 1px #919191,1px 1px 1px #919191,1px 10px 6px rgba(16, 16, 16, 0.4),1px 10px 10px rgba(16, 16, 16, 0.2),1px 10px 25px rgba(16, 16, 16, 0.2),1px 30px 60px rgba(16, 16, 16, 0.4);
+$bg-gray: #343a40;
+$custom-dark: #252525;
+$custom-light-gray: #525252;
+
+.grid__container {
+  height: 50px;
+  max-width: $grid-width;
+  
+
+  &:not(:last-child) {
+    margin-bottom: $grid-gutter-vertical;
+  }
+}
+.grid__row {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(153, 153, 153, 0), rgba(153, 153, 153, 0.75), rgba(153, 153, 153, 0));
+}
+
+div.row.text {
+  margin-top: 80px;
+  background: $bg-gray;
+  font-weight: bold;
+  font-family: 'Verdana';
+  height: 1px;
+  text-align: center;
+  text-shadow: 3px 3px #1f1f1fda;
+  color: #858585;
+  font-size: 25px;
+  
+}
+[class^="grid__col"],
+[class^="btn"] {
+  border-width: .5px;
+  border-style: inset;
+  border-radius: 30%;
+  font-family: 'Verdana';
+  font-size: 20px;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  width: 50px;
+  height: 50px;
+  color: #525252;
+  background-color: $custom-dark;
+  justify-content: center;
+  padding-top: .5rem;
+  text-shadow:$text-shadow-3d;
+  box-shadow: 0 2px 3px -2px rgba(151, 151, 151, 0.829);
+}
+
+
+div.btn.btn-dark.grid__col.sm-6.md-6.bg-6 {
+  margin-top: 1.5rem;
+  width: 100px;
+  height: 30px;
+  text-shadow: none;
+}
+
+div.grid__col.sm-12.md-12.bg-12,
+div.grid__row__last div.grid__col.sm-12.md-12.bg-12 {
+  width: 13.3rem;
+  height: 25rem;
+  font-size: medium;
+  border-radius: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  justify-content: left;
+  padding-left: .8rem;
+}
+div.grid__container div.grid__row__last div.grid__col.sm-12.md-12.bg-12 {
+  height: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  font-size: .9rem;
+  font-weight: 100 ;
+  border-radius: 0;
+  padding-top: .1rem;
+  margin-bottom: 2rem;
+  margin-left: 2px;
+  margin-right: 2px;
+  display: inline;
+
+  &:hover {
+    color: $bg-gray;
+  }
+
+  &:active {
+    color: $custom-dark !important;
+  }
+}
+
+
+.grid__row table {
+  width: 11.7rem;
+  font-size: .8rem;
+  text-shadow: none;
+  padding-left: 2.5rem;
+  
+}
+
+
+@media (max-width: 399px) {
+  .grid__row {
+    margin-top: 30px;
+  }
+}

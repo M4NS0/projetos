@@ -1,0 +1,25 @@
+
+<ng-template [ngIf]="parciais.length > 0">
+  <div class="grid__row ">
+    <div class="gridCol sm-12 md-12 bg-12 overflow-auto">
+
+      <table class="table table-striped table-dark table-borderless table-hover ">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Parciais</th>
+          </tr>
+        </thead>
+        <tbody *ngFor="let parcial of doReverse();">
+          <tr>
+            <th scope="row">{{parcial.id }}</th>
+            <th scope="row">{{parcial.horas | date: 'mm:ss:SSS'}}
+            </th>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+</ng-template>
+

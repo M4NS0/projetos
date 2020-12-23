@@ -1,0 +1,27 @@
+<div class="teste">
+  <div class="row text lg-4 md-6 sm-8">
+    <div class="col-12">
+      Cronômetro
+      <hr>
+    </div>
+  </div>
+  <div class="sm-4">
+
+    <div class="grid__row">
+      <div class="grid__col sm-12 md-12 bg-12">{{tempo | date: 'mm:ss.SSS'}} </div>
+    </div>
+
+    <div class="grid__row">
+      <div class="btn btn-dark grid__col sm-6 md-6 bg-6" (click)="pushParcialEmArray();">Parcial</div>
+      <div class="btn btn-dark grid__col sm-6 md-6 bg-6" (click)="resetTimer()">Resetar</div>
+      <div class="btn btn-dark grid__col sm-6 md-6 bg-6" (click)="startTimer(true);">Iniciar</div>
+      <div class="btn btn-dark grid__col sm-6 md-6 bg-6" (click)="startTimer(false)">Parar</div>
+    </div>
+
+    
+  </div>
+  <div class="grid__row ">
+          <div class="gridCol sm-12 md-12 bg-12 overflow-auto">
+    <app-parciais [parciais]="parciais"></app-parciais>
+  </div>
+</div>

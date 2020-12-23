@@ -1,0 +1,50 @@
+<div class="teste">
+  <div class="row text lg-4 md-6 sm-8">
+    <div class="col-12">
+      O Cronômetro está rodando!
+      <hr>
+    </div>
+  </div>
+  <div class="sm-4">
+    <div class="grid__container">
+
+      <div class="grid__row">
+        <div class="grid__col sm-4 md-4 bg-4">{{horaStr}} </div>
+        <div class="grid__col sm-4 md-4 bg-4">{{minutoStr}}</div>
+        <div class="grid__col sm-4 md-4 bg-4">{{segundoStr}}</div>
+        <div class="grid__col sm-4 md-4 bg-4">{{milissegundoStr}}</div>
+      </div>
+
+      <div class="grid__row">
+        <div class="btn btn-dark grid__col sm-6 md-6 bg-6" (click)="pushParcialEmArray()">Parcial</div>
+        <div class="btn btn-dark grid__col sm-6 md-6 bg-6" (click)="resetTimer()">Resetar</div>
+        <div class="btn btn-dark grid__col sm-6 md-6 bg-6" (click)="startTimer(true); changeShow();">Iniciar</div>
+        <div class="btn btn-dark grid__col sm-6 md-6 bg-6" (click)="startTimer(false)">Parar</div>
+      </div>
+
+      <div *ngIf="show" > 
+        <div class="grid__row ">
+          <div class="grid__col sm-12 md-12 bg-12 overflow-auto">
+            <table class="table table-striped table-dark table-borderless table-hover ">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Parciais</th>
+                </tr>
+              </thead>
+              <tbody *ngFor="let parcial of doReverse();">
+                <tr>
+                  <th scope="row">{{parcial.id}}</th>
+                  <th scope="row">{{parcial.horas}}:{{parcial.minutos}}:{{parcial.segundos}}:{{parcial.milissegundos}}
+                  </th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+</div>
+
+
