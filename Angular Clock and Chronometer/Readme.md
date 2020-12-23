@@ -2,7 +2,8 @@
 
 - Data e Hora Atual
 - Saudações 
-- Cronômetro
+- Cronômetro 1 (deprecated)
+- Cronômetro 2
 
 ### Lista de Correções e Implementações pedidas
 
@@ -39,10 +40,10 @@ implementações:
 - [x] lista numerada em duas colunas 
 - [x] criar objeto parcial classe parcial
 - [x] router-link no navbar no lugar de href para nao mudar de pagina
-- [ ] parar o cronometro
+- [x] parar o cronometro
 
 bugs:
-- [ ] lista com ordem estranha
+- [x] lista com ordem estranha
 
 > 21/12/2020
 
