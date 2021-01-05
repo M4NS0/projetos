@@ -1,0 +1,68 @@
+<div>
+  <p> Calcular IMC</p>
+</div>
+
+<div class="container-fluid">
+  <form [formGroup]="nomeForm">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <label>
+          <span>Peso</span>(kg)
+        </label>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <input class="form-control" 
+        formControlName="peso" 
+        [(ngModel)]="imc.peso">
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <label>
+          <span>Altura</span>(cm)
+        </label>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <input 
+        class="form-control" 
+        formControlName="altura" 
+        [(ngModel)]="imc.altura">
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <button 
+        type="submit" 
+        class="btn btn-info btn-sm" 
+        (click)="calcular()">Calcular</button>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="retorno">
+          <app-resultado 
+          [mensagem]="retorno.mensagem" 
+          [redirecionamento]="retorno.redirecionamento"
+          [resultado]="retorno.resultado" 
+          [alerta]="retorno.alerta">
+          </app-resultado>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <app-tabela>
+        </app-tabela>
+      </div>
+    </div>
+  </form>
+</div>
