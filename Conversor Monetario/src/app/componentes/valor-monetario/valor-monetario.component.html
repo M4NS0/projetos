@@ -1,0 +1,16 @@
+<div [formGroup]="formulario">
+  <div class="input-group mb-2">
+    <div class="input-group-prepend">
+      <div class="input-group-text">{{moeda}}</div>
+    </div>
+    <input 
+    type="text" 
+    class="form-control" 
+    (focus) = "valor=0"
+    [formControlName]="controlName"
+    currencyMask [(ngModel)]="valor" 
+    [options]="{ prefix: 'R$ ', thousands: '.', decimal: ',' }"
+    (ngModelChange)="onNumberChange($event);" >
+    
+  </div>
+</div>

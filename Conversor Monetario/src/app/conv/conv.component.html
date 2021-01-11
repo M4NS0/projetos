@@ -1,0 +1,23 @@
+<div class="container-fluid justify-content-center">
+  <form [formGroup]="formulario">
+    <div>
+      <app-valor-monetario 
+      [moeda]="'BRL'" 
+      [valor]="valorBrl" 
+      (envio)="enviarBrl($event)" 
+      [formulario]="formulario"        
+      [controlName]="'valorBrl'">
+    </app-valor-monetario>
+      <div>
+        <app-valor-monetario 
+        [moeda]="'USD'" 
+        [valor]="valorUsd" 
+        (envio)="enviarUsd($event)"
+        [formulario]="formulario"
+        [controlName]="'valorUsd'">
+      </app-valor-monetario>
+      </div>
+    </div>
+  </form>
+</div>
+<!-- https://www.npmjs.com/package/ng2-currency-mask -->
