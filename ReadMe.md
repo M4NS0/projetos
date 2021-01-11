@@ -10,7 +10,7 @@
 | **Calculadora**         | Calculadora Simples                                                           | Java/JFrame/Swing                                    |
 | **Calculadora**         | Calculadora Simples                                                           | JavaScript/Bootstrap                                 |
 | **Chat-in**             | Comunicador Criptografado com Envio e Recebimento de Arquivos                 | Java                                                 |
-| **Conversor Monetário** | Single Page Application que converte reais/dolares                            |                                                      |
+| **Conversor Monetário** | Single Page Application que converte reais/dolares                            | Angular/Typescript/Bootstrap/Css/Html                |
 | **Geo Ip Lookup**       | Localizador geográfico por IP                                                 | Shell                                                |
 | **GitHub Pusher**       | Faz commits e pushes no Github com interface gráfica simples                  | Shell                                                |
 | **Hora Fácil**          | Single Page Application de Horas com cronômetro                               | Angular/Typescript/Bootstrap/Css/Html                |
