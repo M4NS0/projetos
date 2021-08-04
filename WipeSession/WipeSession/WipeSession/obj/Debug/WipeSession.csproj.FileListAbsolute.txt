@@ -1,0 +1,10 @@
+C:\Users\M4ns0\source\repos\WipeSession\WipeSession\obj\Debug\WipeSession.csproj.AssemblyReference.cache
+C:\Users\M4ns0\source\repos\WipeSession\WipeSession\obj\Debug\WipeSession.Form1.resources
+C:\Users\M4ns0\source\repos\WipeSession\WipeSession\obj\Debug\WipeSession.Properties.Resources.resources
+C:\Users\M4ns0\source\repos\WipeSession\WipeSession\obj\Debug\WipeSession.csproj.GenerateResource.cache
+C:\Users\M4ns0\source\repos\WipeSession\WipeSession\obj\Debug\WipeSession.csproj.CoreCompileInputs.cache
+C:\Users\M4ns0\source\repos\WipeSession\WipeSession\bin\Debug\WipeSession.exe.config
+C:\Users\M4ns0\source\repos\WipeSession\WipeSession\bin\Debug\WipeSession.exe
+C:\Users\M4ns0\source\repos\WipeSession\WipeSession\bin\Debug\WipeSession.pdb
+C:\Users\M4ns0\source\repos\WipeSession\WipeSession\obj\Debug\WipeSession.exe
+C:\Users\M4ns0\source\repos\WipeSession\WipeSession\obj\Debug\WipeSession.pdb
