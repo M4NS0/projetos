@@ -1,0 +1,8 @@
+{
+    "/api/*": {
+       "target": "http://angular-test.blabs.us/",
+       "secure": false,
+       "logLevel": "debug",
+       "changeOrigin": true
+    }
+  }

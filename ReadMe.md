@@ -13,6 +13,7 @@
 | **Calculadora**           | Calculadora simples                                                            | C#/ASP.Net                                           |
 | **Chat-in**               | Comunicador Criptografado com envio e recebimento de arquivos                  | Java                                                 |
 | **Conversor Monetário**   | Single Page Application que converte reais/dolares                             | Angular/Typescript/Bootstrap/Css/Html                |
+| **CRUD**                  | Crud em Angular com consumo de API                                             | Angular/Typescript/Bootstrap/Css/Html                |
 | **Doge Wallet**           | Aplicativo de carteira de criptomoeda                                          | Android/Java                                         |
 | **Geo Ip Lookup**         | Localizador geográfico por IP                                                  | Shell                                                |
 | **GitHub Pusher**         | Faz commits e pushes no Github com interface gráfica simples                   | Shell                                                |

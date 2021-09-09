@@ -1,0 +1,53 @@
+<div class="container">
+    <ng-container *ngIf="formOn === false; else allowSaving">
+        <div class="container">
+            <button type="button" class="btn btn-success" (click)="loadForm()">Add New Product</button>
+        </div>
+    </ng-container>
+
+    <ng-template #allowSaving>
+        <div class="container">
+            <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+                <div class="display-block" style="padding: 5px">
+                    <input type="text" class="form-control" formControlName="name" placeholder="Enter the product name"
+                        [(ngModel)]="product.name">
+                    <div *ngIf="profileForm.controls['name'].touched && profileForm.controls['name'].invalid"
+                        class="alert alert-danger">
+                        <div *ngIf="profileForm.controls['name'].errors && profileForm.controls['name'].errors.required">
+                            * Name is required.</div>
+                    </div>
+                </div>
+                <div class="display-block" style="padding: 5px">
+                    <input type="text" class="form-control" formControlName="price"
+                        placeholder="Enter the product price" (keypress)="numberOnly($event)">
+
+                    <div *ngIf="profileForm.controls['price'].touched && profileForm.controls['price'].invalid"
+                        class="alert alert-danger">
+                        <div
+                            *ngIf="profileForm.controls['price'].errors && profileForm.controls['price'].errors.required">
+                            * Price is required.</div>
+                    </div>
+                    <div *ngIf="isNumeric == false" class="alert alert-danger">
+                        * Must be numeric</div>
+                </div>
+
+                <div class="display-block" style="padding: 5px">
+
+                    <input type="text" class="form-control" formControlName="sku" placeholder="Enter the product sku">
+
+                    <div *ngIf="profileForm.controls['sku'].touched &&
+                                profileForm.controls['sku'].invalid" class="alert alert-danger">
+                        <div *ngIf="profileForm.controls['sku'].errors &&
+                                    profileForm.controls['sku'].errors.required">
+                            * Sku is required.</div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-success" [disabled]="!profileForm.valid" style="margin-top: 25px;">
+                    Save New Product</button>
+            </form>
+        </div>
+
+
+
+    </ng-template>
+</div>

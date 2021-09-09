@@ -1,0 +1,25 @@
+
+
+
+<ng-container *ngIf="message.status == 1">
+    <div class="container alert alert-danger">
+        {{message.message}}
+        
+    </div>
+</ng-container>
+
+<ng-container *ngIf="message.status == 2">
+    <div class="container alert alert-success">
+        {{message.message}}
+        
+    </div>
+</ng-container>
+
+
+<ng-container *ngIf="message.status == 3">
+    <div class="container alert alert-warning">
+        {{message.message}}
+        
+    </div>
+</ng-container>
+

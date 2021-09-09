@@ -1,0 +1,13 @@
+.container {
+    margin-top: 50px; 
+    text-align: center;
+    width: 245px;
+}
+.middle {
+    margin-top: 47px;
+    vertical-align: middle;
+}
+
+.form-control {
+    margin-bottom: 5px;
+}
