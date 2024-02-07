@@ -26,4 +26,3 @@
 | **Tela de Login**         | Aplicação Web de tela de login Simples                                         | JavaScript/Html/CSS/Bootstrap                        |
 | **URL Shortner**          | Encurtador de URL com interface gráfica simples                                | Python                                               |
 | **Validador de CPF**      | Aplicação Web com Servlets para validação de Cpf                               | Java/Html                                            |
-| **WipeSession**           | Aplicação desktop para derrubar sessão no GTA Online                           | C# .Net                                              |
